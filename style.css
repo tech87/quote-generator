@@ -1,0 +1,167 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: black;
+  background-image: url('img/ocean.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  z-index: -2;
+}
+h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing:0.1em;
+}
+
+
+.container {
+  padding-top: 2em;
+  text-align: center;
+  height: 430px;
+  width: 1200px;
+  margin: 0px auto;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0px auto;
+  align-content: center;
+  text-align:center;
+}
+
+.button {
+  width: 150px;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  border: thin solid white;
+  height: 40px;
+  font-family: inherit;
+  border-radius: 2px;
+  transition: 0.5s;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+  border: thin solid black;
+  opacity: 0.8;
+}
+
+#content {
+  width:1200px;
+  margin:10px auto;
+  text-align: center;
+  height:70px;
+  text-decoration: none;
+  padding: 30px;
+} 
+
+.p1 {
+
+  color: white;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  /* text-transform: lowercase; */
+  line-height: 100%;
+  font-size: 2.5em;
+  font-variant: small-caps;
+}
+
+.p2 {
+
+  color: white;
+  letter-spacing:0.1em;
+  text-align:center;
+  margin: 40px auto;
+  /* text-transform: lowercase; */
+  line-height: 80%;
+  font-size: 1.3em;
+  font-variant: small-caps;
+}
+
+
+p :hover {
+  text-decoration: none;
+}
+
+
+#quote {
+  font-size: 1rem;
+  width: 100px;
+}
+
+#number {
+  font-size: 1rem;
+}
+
+label {
+  margin-left: 100px;
+  color: white;
+  font-size: 1.2rem;
+  width: 100px;
+}
+
+.button2 {
+  width: 150px;
+  margin: 1px;
+  text-decoration: none;
+  opacity: 0.6;
+  background-color: black;
+  color: white;
+  border: thin solid white;
+  height: 40px;
+  font-family: inherit;
+  border-radius: 2px;
+  transition: 0.5s;
+  padding: 5px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+  border: thin solid black;
+  opacity: 0.8;
+}
+
+
+@media screen and (max-width:1199px) {
+  .container{
+    width: 100%;
+  }
+   #content{
+    width: 90%;
+ }
+ .button {
+  width: 25%;
+}
+.button2 {
+  width: 25%;
+ }
+ .label {
+  width: 25%;
+}
+}
+
+@media screen and (max-width:640px) {
+  .button {
+    width: 100%;
+  }
+  .button2 {
+    width: 100%;
+  }
+  .label {
+    width: 100%;
+  }
+}
